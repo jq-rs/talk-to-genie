@@ -19,7 +19,7 @@ An AI called "Genie" can be called out and discussed over a chat after reclaimin
 
 ## Architecture & Design
 
-- **Detailed Design/Architecture:** Design and implement zkApp that is used for software licensing. Design and implement a zkOracle to save extra information for the license. Create APIs for license handling. Ensure that privacy and anonymity are preserved. Save only licensing Merkle root on-chain and rest into zkOracle off-chain. Verify both off-chain and on-chain when checking license validity. Allow to set expiry time for the license in questing. Ensure that several license instances can use the same zkApp.
+- **Detailed Design/Architecture:** Design and implement zkApp that is used for software licensing. Design and implement a zkOracle to save extra information for the license. Create APIs for license handling. Ensure that privacy and anonymity are preserved. Save only licensing Merkle root on-chain and rest into zkOracle off-chain. Use the public key as the licensing key. Allow to set expiry time for the license in questing. Verify both off-chain and on-chain when checking license validity. Ensure that several license instances can use the same zkApp.
 - **Vision:** Revolutionize software licensing with zkApps. 
 - **Project Timeline :** 3M
 - **Existing Work:** Rust REST API server exists and can be extended for zkOracle use case.
