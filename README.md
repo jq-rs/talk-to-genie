@@ -9,7 +9,7 @@ Software licensing is a hard problem. Privacy, anonymity, and ease of use are di
 
 ## Proposal Overview
 
-An AI called "Genie" can be called out and discussed over a chat after reclaiming a license via zkApp.
+An AI called "Genie" can be called out and discussed over a chat after claiming a license via zkApp.
 
 - **Problem:** How to license software or features in a privacy-respecting way easy for the user.
 - **Solution:** Use zkApp combined with zkOracle for software licenses.
